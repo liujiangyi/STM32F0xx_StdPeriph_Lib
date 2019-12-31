@@ -1,0 +1,17 @@
+setlocal tabstop=2
+setlocal expandtab
+setlocal shiftwidth=2
+setlocal softtabstop=2
+
+let project_dir=finddir("$PROJ_NAME$", "**;")
+let project_name="$PROJ_NAME$.uvprojx"
+let &l:path=project_dir . "/*" . ",$REL_LIB_DIR$/Libraries/**"
+
+let keil_v5="C:\\Keil_v5\\UV4\\UV4.exe"
+let &l:makeprg=keil_v5 . " -r " . project_dir . "\\" . project_name
+
+setl efm=%E%f(%l):\ error:\ %##%c:\ %m,%Z%m
+setl efm+=%W%f(%l):\ warning:\ %##%c%[a-zA-Z-]%#:\ %m,%Z%m
+
+"FIXME
+"autocmd QuickFixCmdPre make ProjectRootCD

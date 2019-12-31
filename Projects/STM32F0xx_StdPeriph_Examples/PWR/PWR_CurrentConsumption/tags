@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AHBPrescTable	system_stm32f0xx.c	/^__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};$/;"	v
+EXTI0_1_IRQHandler	stm32f0xx_it.c	/^void EXTI0_1_IRQHandler(void)$/;"	f	signature:(void)
+EXTI0_1_IRQHandler	stm32f0xx_it.h	/^void EXTI0_1_IRQHandler(void);$/;"	p	signature:(void)
+HardFault_Handler	stm32f0xx_it.c	/^void HardFault_Handler(void)$/;"	f	signature:(void)
+HardFault_Handler	stm32f0xx_it.h	/^void HardFault_Handler(void);$/;"	p	signature:(void)
+NMI_Handler	stm32f0xx_it.c	/^void NMI_Handler(void)$/;"	f	signature:(void)
+NMI_Handler	stm32f0xx_it.h	/^void NMI_Handler(void);$/;"	p	signature:(void)
+PendSV_Handler	stm32f0xx_it.c	/^void PendSV_Handler(void)$/;"	f	signature:(void)
+PendSV_Handler	stm32f0xx_it.h	/^void PendSV_Handler(void);$/;"	p	signature:(void)
+RTC_IRQHandler	stm32f0xx_it.c	/^void RTC_IRQHandler(void)$/;"	f	signature:(void)
+RTC_IRQHandler	stm32f0xx_it.h	/^void RTC_IRQHandler(void);$/;"	p	signature:(void)
+STANDBY_RTC_MODE	stm32f0xx_lp_modes.h	43;"	d
+SVC_Handler	stm32f0xx_it.c	/^void SVC_Handler(void)$/;"	f	signature:(void)
+SVC_Handler	stm32f0xx_it.h	/^void SVC_Handler(void);$/;"	p	signature:(void)
+SetSysClock	system_stm32f0xx.c	/^static void SetSysClock(void)$/;"	f	file:	signature:(void)
+SetSysClock	system_stm32f0xx.c	/^static void SetSysClock(void);$/;"	p	file:	signature:(void)
+SleepMode_Measure	stm32f0xx_lp_modes.c	/^void SleepMode_Measure(void)$/;"	f	signature:(void)
+SleepMode_Measure	stm32f0xx_lp_modes.h	/^void SleepMode_Measure(void);$/;"	p	signature:(void)
+StandbyMode_Measure	stm32f0xx_lp_modes.c	/^void StandbyMode_Measure(void)$/;"	f	signature:(void)
+StandbyMode_Measure	stm32f0xx_lp_modes.h	/^void StandbyMode_Measure(void);$/;"	p	signature:(void)
+StandbyRTCMode_Measure	stm32f0xx_lp_modes.c	/^void StandbyRTCMode_Measure(void)$/;"	f	signature:(void)
+StandbyRTCMode_Measure	stm32f0xx_lp_modes.h	/^void StandbyRTCMode_Measure(void);$/;"	p	signature:(void)
+StopMode_Measure	stm32f0xx_lp_modes.c	/^void StopMode_Measure(void)$/;"	f	signature:(void)
+StopMode_Measure	stm32f0xx_lp_modes.h	/^void StopMode_Measure(void);$/;"	p	signature:(void)
+SysTick_Handler	stm32f0xx_it.c	/^void SysTick_Handler(void)$/;"	f	signature:(void)
+SysTick_Handler	stm32f0xx_it.h	/^void SysTick_Handler(void);$/;"	p	signature:(void)
+SystemCoreClock	system_stm32f0xx.c	/^uint32_t SystemCoreClock    = 48000000;$/;"	v
+SystemCoreClockUpdate	system_stm32f0xx.c	/^void SystemCoreClockUpdate (void)$/;"	f	signature:(void)
+SystemInit	system_stm32f0xx.c	/^void SystemInit (void)$/;"	f	signature:(void)
+__MAIN_H	main.h	30;"	d
+__STM32F0XX_CONF_H	stm32f0xx_conf.h	30;"	d
+__STM32F0XX_IT_H	stm32f0xx_it.h	30;"	d
+__STM32F0xx_LP_MODES_H	stm32f0xx_lp_modes.h	30;"	d
+assert_failed	main.c	/^void assert_failed(uint8_t* file, uint32_t line)$/;"	f	signature:(uint8_t* file, uint32_t line)
+assert_failed	stm32f0xx_conf.h	/^  void assert_failed(uint8_t* file, uint32_t line);$/;"	p	signature:(uint8_t* file, uint32_t line)
+assert_param	stm32f0xx_conf.h	74;"	d
+assert_param	stm32f0xx_conf.h	78;"	d
+i	main.c	/^__IO uint32_t i = 0;$/;"	v
+main	main.c	/^int main(void)$/;"	f	signature:(void)
